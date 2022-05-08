@@ -1,0 +1,157 @@
+:root{
+  --bg1: #0b1a38;
+  --bg2: #1C1F44;
+  --bg3: #222551;
+  --border: #4B4E81;
+  --red: rgb(253 17 17 / 92%);
+}
+body {
+  background: url('./assets/images/BG.jpg') center no-repeat fixed;
+  background-size: cover;
+}
+
+/* LOGO */
+.iZeHkY{
+  width: 150px;
+  height: 85px;
+  background: url("./assets/images/logo.png")left no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-8px);
+}
+.iZeHkY > div > a > div > svg{
+  display: none;
+}
+/* MAIN SECTION */
+/* langualge btn */
+.gOWylv, .imgUts{
+  background: var(--bg3);
+  border: 1px solid var(--border);
+}
+.jwKFvt, .eqhXMG, .gNCNGK, .fCQZKl{
+  background: var(--bg2);
+}
+
+.cyEQpE{
+  background: transparent;
+}
+/* under exchange */
+.bJICrZ{
+  background: var(--red);
+}
+.bJICrZ:hover:not(:disabled):not(.button--disabled):not(:active){
+  background: var(--red);
+  box-shadow: none !important;
+}
+.jfLohv{
+  background: var(--bg3) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: none;
+}
+/* red border button */
+.ipDieS{
+  background: var(--bg3);
+  border-color: var(--red);
+}
+/* hover */
+.ipDieS:hover:not(:disabled):not(.button--disabled):not(:active){
+  background: var(--bg1);
+}
+/* inputs */
+.dprMFf{
+  background: var(--bg1);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.bFPuMh:focus, .dprMFf:focus{
+  background: var(--bg2) !important;
+}
+/* input point */
+.dTPGlP .sc-gsDKAQ{
+  background: var(--border);
+  padding: 0.5px 8px;
+}
+/* input modal */
+.iyPUth, .iaJosQ{
+  background: var(--bg2);
+}
+/* modal button */
+.ciPYwH, .ipBJEg, .kXeYoA{
+  border: 1px solid var(--border);
+  background: var(--bg3);
+  box-shadow: none;
+}
+
+/* popup modal */
+.kqoLHR[data-reach-dialog-content]{
+  background: var(--bg1);
+}
+
+/* SIDEBAR */
+.cetLND, .hnXyWZ{
+  background: var(--bg2) !important;
+  padding-top: 15px;
+}
+.kLDgbR, .hQZDxf{
+  background: var(--bg1);
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+.kLDgbR:hover, .hQZDxf:hover{
+  background: var(--bg3);
+  border: 1px solid var(--border);
+}
+
+/* after hover click */
+.jOgIlW{
+  background: var(--bg2);
+  border: 1px solid var(--border);
+}
+.ibhmcC, .dafToS,.jpiMao, .pDxuo{
+  background: none;
+}
+.dafToS:hover{
+  background: var(--bg1);
+}
+
+/* after click unlock modal */
+.hUAyaw{
+  background: var(--border);
+}
+.htuzyK{background: var(--bg1);}
+.gKvzJd > button, .iYkwEv > button, .iffEkE{
+  background: var(--bg2) !important;
+  border: 2px solid var(--red) !important;
+}
+
+/* after click setting icon */
+.cnlCjb, .bBAwrM > div:first-child{
+  background: var(--bg2);
+  border: 1px solid var(--border);
+}
+
+.gwmpNL{
+  background: var(--bg1);
+  box-shadow: none;
+  border: 1px solid var(--red) !important;
+}
+.gwmpNL:hover{
+  border: 1px solid var(--red) !important;
+}
+.dEnfqo{
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.bpWFvh:hover{
+  background: var(--bg1);
+}
+
+/* telegram icon hover */
+.bElCTI, .bElCTI::before{
+  background-color: var(--bg1);
+  border: 1px solid var(--border);
+}

@@ -1,0 +1,14 @@
+import { ChainId } from '@gravis.finance/sdk'
+
+import { ChainIdType } from 'constants/chain'
+
+const ROUTER_ADDRESS: { [chainId in ChainIdType]: string } = {
+  [ChainId.MAINNET]: '0x03a2F8F90B219732757472BB54801a82f33A8d0D',
+  [ChainId.BSCTESTNET]: '0x354bc1cFe9959b96beD409859a726263C6C56C81',
+  [ChainId.HECOMAINNET]: '0x03a2F8F90B219732757472BB54801a82f33A8d0D',
+  [ChainId.HECOTESTNET]: '0x7b281f1701dbA84FBBdE49aB0128335961863199',
+  [ChainId.MATICMAINNET]: '0x711a119dCee9d076e9f4d680C6c8FD694DAaF68D',
+  [ChainId.MATICTESTNET]: '0xc9571c40A710ec0718Ee0d9D070aC06d1578b50e',
+}
+
+export default ROUTER_ADDRESS
