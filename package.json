@@ -95,7 +95,7 @@
     "webpack-bundle-analyzer": "^4.4.2"
   },
   "scripts": {
-    "start": "react-dotenv && react-scripts start",
+    "start": "react-dotenv && react-scripts start --openssl-legacy-provider",
     "build": "react-dotenv && react-scripts build",
     "build:dev": "NODE_ENV=development dotenv -e .env.development react-scripts build",
     "test": "dotenv -e .env.production jest --watch",
